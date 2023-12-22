@@ -50,7 +50,7 @@ const Nav = () => {
                 </> :
                 <>
 
-                    <Link to="/login" className='btn btn-outline btn-success rounded-3xl mr-2'>Login</Link>
+                    <Link to="/login" className='btn btn-outline border-red-950 text-black rounded-3xl mr-2'>Login</Link>
                     <Link to="/signup" className='btn rounded-3xl bg-red-900 text-white'>Join US</Link>
                 </>}
 

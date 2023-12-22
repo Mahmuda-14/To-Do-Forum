@@ -18,7 +18,7 @@ const Add = () => {
         }
 
         console.log(tskItem)
-        fetch('http://localhost:5000/task', {
+        fetch('https://jt-server.vercel.app/task', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

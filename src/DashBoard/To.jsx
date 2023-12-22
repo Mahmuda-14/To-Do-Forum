@@ -8,7 +8,7 @@ const To = () => {
   const [completedTasks, setCompletedTasks] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/task')
+    fetch('https://jt-server.vercel.app/task')
       .then((res) => res.json())
       .then((data) => {
         setTasks(data);
@@ -146,6 +146,17 @@ const To = () => {
 };
 
 export default To;
+
+
+
+
+
+
+
+
+
+
+
 
 
 
